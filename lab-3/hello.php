@@ -18,7 +18,6 @@
     echo "delen:" . "<br>";
     echo $n / $s . "<br>";
 
-    Lab 3b
     $myArray = array(3, 5, 8, 12);
     print_r ($myArray);
     $getal = 6;

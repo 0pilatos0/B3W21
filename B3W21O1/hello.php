@@ -1,5 +1,4 @@
 <?php
-   
    echo '<div class="tijdstip">';
    date_default_timezone_set("Europe/Amsterdam");
    echo "The time is " . date("h:i:s");   
@@ -9,13 +8,13 @@
       $profpic = "morning.png";
    }
    elseif ($tijd > "12:00:00" && $tijd < "18:00:00"){
-      $profpic = "morning.png";
+      $profpic = "afternoon.png";
    }
-   elseif ($tijd > "18:00:00" && $tijd < "00:00:00"){
-      $profpic = "morning.png";
+   elseif ($tijd > "18:00:00" && $tijd < "24:00:00"){
+      $profpic = "evening.png";
    }
    elseif ($tijd > "00:00:00" && $tijd < "06:00:00"){
-      $profpic = "morning.png";
+      $profpic = "night.png";
    }
    echo "</div>";
 ?>
