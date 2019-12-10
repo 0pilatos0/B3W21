@@ -4,7 +4,6 @@
  </head>
  <body>
  <?php
-
     $n = rand (0, 10);
     $s = rand (0, 10);
     echo $n . "<br>";
