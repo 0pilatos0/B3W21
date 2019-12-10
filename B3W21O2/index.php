@@ -9,8 +9,9 @@
  </head>
  <body>
     <div class="website">
-    
-        
+    <?php include 'menu.php';?>
+    <?php include 'header.php';?>
+    <?php include 'footer.php';?>
     </div>
  </body>
 </html>
